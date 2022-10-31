@@ -13,4 +13,5 @@ rm clean_seq.txt
 rm seqdata.txt
 
 echo $localnuc
+echo -e '\n'
 echo $remotenuc

@@ -3,7 +3,7 @@
 # Symbols and writing to a new "clean_seq.txt" file.
 
 # Setting variables, converting to upper case
-dna_seq = open("genomic_seq_CDS.txt").read()
+dna_seq = open("seqdata.txt").read()
 dna_seq = dna_seq.upper()
 new_seq = ''
 

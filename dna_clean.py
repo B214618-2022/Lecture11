@@ -21,6 +21,6 @@ for x in str(dna_seq):
          continue
 
 # Writing new file
-with open("clean_seq.txt", "w") as clean_seq:
+with open("localfullseq.txt", "w") as clean_seq:
     clean_seq.write(new_seq)
 
